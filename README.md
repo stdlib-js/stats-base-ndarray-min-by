@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-min-by@esm/index.mjs';
+import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-min-by@v0.1.0-esm/index.mjs';
 ```
 
 #### minBy( arrays, clbk\[, thisArg ] )
@@ -135,7 +135,7 @@ var count = ctx.count;
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-min-by@esm/index.mjs';
+import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-min-by@v0.1.0-esm/index.mjs';
 
 function clbk( value ) {
     return value * 2.0;
